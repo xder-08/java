@@ -1,0 +1,27 @@
+Enter the country to search for: Tokyo
+
+Matching cities:
+
+There are 0 cities in Tokyo among the top 10 SAFEST cities in the world
+
+
+Enter the country to search for: japan
+
+Matching cities:
+  Number 1 of 10: Tokyo, Japan
+  Number 3 of 10: Osaka, Japan
+
+There are 2 cities in japan among the top 10 SAFEST cities in the world
+
+
+Enter the country to search for: Italy
+
+Matching cities:
+
+There are 0 cities in Italy among the top 10 SAFEST cities in the world
+
+
+Matching cities:
+  Number 6 of 10: Toronto, Canada
+
+There is 1 city in Canada among the top 10 SAFEST cities in the world

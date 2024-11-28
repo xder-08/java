@@ -1,0 +1,33 @@
+students = {}
+
+
+while True:
+    name = input("Student name: ")
+    if name == "END":
+        break
+    score = float(input("Score: ")) 
+    students[name] = score  
+
+
+total_score = 0
+for student in students:
+    total_score += students[student]
+average_score = total_score / len(students)
+
+
+highest_score = 0
+highest_scorer = ""
+for student in students:
+    if students[student] > highest_score:
+        highest_score = students[student]
+        highest_scorer = student
+
+
+print(f"\nClass average score is {average_score:.1f}")
+print(f"Highest score of {highest_score:.1f} achieved by {highest_scorer}!\n")
+
+
+print("Student Name    Grade")
+print("---------------------")
+for student in students:
+    print(f"{student:<15}{students[student]:.1f}")
